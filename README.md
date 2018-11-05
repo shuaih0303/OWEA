@@ -1,2 +1,2 @@
 # OWEA
-A R package for optimal designs.
+# This package is no longer maintained, please use 'CrossoverDesign' package instead.

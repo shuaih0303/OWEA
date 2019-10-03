@@ -311,7 +311,7 @@ design <- function(model = c("dropout", "proportional", "interference"), n, opt,
   model <- match.arg(model)
   g_part <- generate_contrast(opt, t, p)
   space <- gtools::permutations(t, p, repeats.allowed = TRUE)
-  space <- space[apply(space,1,function(x){length(unique(x))>=2}),]
+  space <- space[apply(space,1,function(x){length(unique(x)) >= min(t, p)}),]
   index_initial <- sample(1:NROW(space), t + 1)  # initial selection
   x0 <- space[index_initial, , drop = F]  # initial design
   

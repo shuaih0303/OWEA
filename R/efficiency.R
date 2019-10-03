@@ -206,7 +206,7 @@ effLB <- function(exact_design) {
       phi1 <- phi1 + realize.prob1[i] * det(covar1)
     }
     phi2 <- det(covar2)
-    out <- list(efficiency.self = phi2/phi1, optimal.value = phi2)
+    out <- list(efficiency.self = (phi2/phi1)^(1/t), optimal.value = phi2)
   }
 
 

@@ -3,7 +3,6 @@
 \docType{package}
 \name{OWEA}
 \alias{OWEA}
-\alias{OWEA-package}
 \title{OWEA: A package for optimal designs by implementing optimal weight exchange
 algorithm.}
 \description{

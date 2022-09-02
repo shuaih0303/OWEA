@@ -14,13 +14,14 @@ Description: An implementation of optimal weight exchange algorithm Yang(2013) <
     from approximate designs and relative efficiency is provided as well.
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
+LazyData: false
 Suggests: 
     knitr,
     rmarkdown
 Imports:
     gtools (>= 3.9.3),
     MASS,
+    methods,
     shiny (>= 1.7.2)
 RoxygenNote: 7.2.1
 

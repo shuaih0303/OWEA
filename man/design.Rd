@@ -4,8 +4,15 @@
 \alias{design}
 \title{Design Generator for Three Models}
 \usage{
-design(model = c("dropout", "proportional", "interference"), n, opt, t,
-  p, ..., max_iter = 40)
+design(
+  model = c("dropout", "proportional", "interference"),
+  n,
+  opt,
+  t,
+  p,
+  ...,
+  max_iter = 40
+)
 }
 \arguments{
 \item{model}{an model indicator, must be one of 'dropout', 'proportional', or 'interference'.}
